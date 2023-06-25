@@ -1,0 +1,25 @@
+.event-title {
+    font-size: medium;
+
+}
+.image-container {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: fit-content;
+    margin-top: 12px;
+}
+.image-container > img {
+    width: 300px;
+    padding: 10px;
+    opacity: 1;
+    transition: opacity .2s ;
+}
+
+.image-container > img:hover {
+    opacity: 0.8;
+}
+
+.events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
